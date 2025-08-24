@@ -1,0 +1,7 @@
+
+.env
+
+
+/backend/studyai/
+/backend/venv/
+/backend/__pycache__/
