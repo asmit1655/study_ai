@@ -18,7 +18,8 @@ app = FastAPI(
 # This allows your frontend (on a different port) to communicate with this backend.
 origins = [
     "http://localhost:3000",  
-    "http://localhost:5173",  
+    "http://localhost:5173",
+    "https://studyaiapp.netlify.app/"
 ]
 
 app.add_middleware(
